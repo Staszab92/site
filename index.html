@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="body">
 	<div class="wrapper">
@@ -27,7 +27,7 @@
 					</div>
 					<div class="main-menu">
 						<ul class="nav">
-							<li class="nav-item"><a class="nav-link" href="#">Компании</a></li> 
+							<li class="nav-item"><a class="nav-link" href="#">О Компании</a></li> 
 							<li class="nav-item"><a class="nav-link" href="#">Доставка и оплата</a></li>
 							<li class="nav-item"><a class="nav-link" href="#">Гарантия</a></li>
 						</ul>
@@ -49,14 +49,109 @@
 				</div>
 				<div class="header-line__second">
 					
-					<button class="catalog">
-						<svg>
-							<use xlink:href="sprite.svg#menu">
-							</use>
-						</svg>
-						<div class="text">каталог</div>
-						<div class="text1"><a class="nav-link2">Все категории</a></div>
-					</button>
+					<div class="catalog-menu">
+						<div class="catalog-padding">
+							<button class="catalog">
+							<svg>
+								<use xlink:href="sprite.svg#menu">
+								</use>
+							</svg>
+							<div class="text">каталог</div>
+							<div class="text1"><a class="nav-link2">Все категории</a></div>
+						</button>
+						<div class="catalog-menu__submenu">
+							<ul class="catalog-svg-menu">
+								<div class="cat1-hover"><li><svg class="cat1">
+									<use xlink:href="sprite.svg#cat1">
+									</use>
+								</svg></li></div>
+								
+								<li><svg class="cat2">
+								<use xlink:href="sprite.svg#cat2">
+								</use>
+							    </svg> </li>
+								<li><svg class="cat3">
+									<use xlink:href="sprite.svg#cat3">
+									</use>
+									</svg></li>
+								<li><svg class="cat4">
+									<use xlink:href="sprite.svg#cat4">
+									</use>
+									</svg></li>
+								<li><svg class="cat5">
+									<use xlink:href="sprite.svg#cat5">
+									</use>
+									</svg></li>
+								<li><svg class="cat6">
+									<use xlink:href="sprite.svg#cat6">
+									</use>
+									</svg></li>
+								<li><svg class="cat7">
+									<use xlink:href="sprite.svg#cat7">
+									</use>
+									</svg></li>
+								<li><svg class="cat8">
+									<use xlink:href="sprite.svg#cat8">
+									</use>
+									</svg></li>
+								<li><svg class="cat9">
+									<use xlink:href="sprite.svg#cat9">
+									</use>
+									</svg></li>
+								<li><svg class="cat10">
+									<use xlink:href="sprite.svg#cat10">
+									</use>
+									</svg></li>
+							</ul>
+							<ul class="cat-text">
+								<li class="cat1-text"><div class="cat-text-hover">Категория 1</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 2</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 3</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 4</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 5</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 6</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 7</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 8</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 9</div></li>
+								<li class="cat1-text"><div class="cat-text-hover">Категория 10</div></li>
+							</ul>
+							<ul class="arrow-path">
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+								<li class="arrow-margin"><svg class="arrow-rotated">
+									<use xlink:href="sprite.svg#arrow-rotated-bold">
+									</use></svg></li>
+							</ul>
+						</div></div>
+						
+
+					</div>
+					
 					<div class="poisk">
                        <div class="wrap">
 							<div class="search">
@@ -81,17 +176,36 @@
 								</use>
 							</svg>
 							</button>
-							<button class="fof3">
-								<svg>
-									<use xlink:href="sprite.svg#bucket">
-									</use>
+							<div class="bucket-menu">
+								<button class="fof3">
+								<svg class="shopping-cart">
+									<use xlink:href="sprite.svg#shopping-cart">
+									</use>	
 								</svg>
-								<div class="number3">
-									<div id="rectangle"><span class="cart-count">3</span>
-									</div>
-								</div>
 								</button>
-					</div>
+							  <div class="bucket-menu-submenu">
+								  <ul class="submenu-text1">
+									  <li>В корзине</li>
+									  <li>На сумму</li>
+								  </ul>
+								  <ul class="submenu-text2">
+									<li>3 товара</li>
+									<li class="grn">30 000 ₴</li>
+								</ul>
+								<div class="bucket-button-submenu">
+								<div class="bucket-button-submenu-textmargin">
+									<span class="bucket-button-submenu-text">Оформить заказ</span>
+								</div>
+								<div class="bucket-sprite-submenu-margin"><svg class="bucket-submenu-sprite">
+									<use xlink:href="sprite.svg#bucketsprite"></use>
+								</svg></div>
+								</div>
+								<div class="bucket-text-submenu-margin">
+								<a><span class="bucket-text-submenu">Редактировать заказ</span>	</a>
+								</div>
+							  </div>
+							</div>
+							</div>
 					 </div>
 			     </div>
 			</div>
@@ -99,10 +213,29 @@
 	</div>
 </div>
 <content class="content">
+	<div class="flex-block">
+			<div class="block-spisok-img">
+		<div class="rectangle-img1">
+			<ul class="list-img">
+				<li><svg class="arrow-spisok-path-up">
+					<use xlink:href="sprite.svg#arrow-spisok-path">
+					</use>
+				</svg></li>
+				<li><a href="javascript:l_image('assets/image/detail1.jpg')"><img src="assets/image/detail1.jpg"  alt="detail1" class="detail-spisok1"></a></li>
+				<li><a href="javascript:l_image('assets/image/img_detail3.jpg')"><img src="/assets/image/img_detail3.jpg"  alt="detail1" class="detail-spisok2"></a></li>
+				<li><a href="javascript:l_image('assets/image/img_detail4.jpg')"><img src="/assets/image/img_detail4.jpg"  alt="detail1" class="detail-spisok3"></a></li>
+				<li><a href="javascript:l_image('assets/image/img_detail5.jpg')"><img src="/assets/image/img_detail5.jpg"  alt="detail1" class="detail-spisok4"></a></li>
+				<li><svg class="arrow-spisok-path">
+					<use xlink:href="sprite.svg#arrow-spisok-path">
+					</use>
+				</svg></li>
+			</ul>
+		</div>
+	</div>
 	<div class="block">
 		<div class="block1">
 			<div class="block2">
-				<img src="/assets/image/detail1.jpg" width="580" height="580" alt="detail1" class="detail1">
+				<img src="/assets/image/detail1.jpg" width="580" height="580" alt="detail1" class="detail1" name="example_img">
 				<svg class="icon-agreed">
 					<use xlink:href="sprite.svg#agreed">
 					</use>
@@ -177,15 +310,182 @@
 					<button class="border-body3">
 						<span class="buy1">Купить в 1 клик</span>
 						<svg class="phone-body">
-							<use xlink:href="sprite.svg#phone">
+							<use xlink:href="sprite.svg#phoneall">
 							</use>
 						</svg>
-						
 					</button>
-			    </div>		
+			    </div>	
 			</div>
 		</div>
 	</div>
+	</div>
+
+	<div class="block-body3">
+		<svg class="garant-body">
+			<use xlink:href="sprite.svg#garant">
+			</use>
+		</svg>
+		<svg class="box-agreed-body">
+			<use xlink:href="sprite.svg#box-agreed">
+			</use>
+		</svg>
+		<svg class="wallet-body">
+			<use xlink:href="sprite.svg#wallet-body">
+			</use>
+		</svg>
+	</div>
+	<div class="block-body4">
+       <div id="rectangle-body1"><span class="block-body-text1">
+		Гарантия
+		</span></div>
+
+		<div id="rectangle-body2">	
+	 <span for="menu_bar02" class="block-body-text2">
+		Условия доставки
+		</span>
+		<input type="checkbox" id="menu_bar02" class="accordion"/>
+			   <div class="panel">
+				<p>Lorem ipsum...</p>
+			  </div>
+		</div>
+
+		<button class="rectangle-body3">	
+			<span for="menu_bar03" class="block-body-text3">
+			   Условия олпаты
+			   </span>
+			   <input type="checkbox" id="menu_bar03" class="accordion"/>
+			   <div class="panel">
+				<p>Lorem ipsum...</p>
+			  </div>
+			   </button>
+	</div>
+	<div class="block-body5">
+		<svg class="arrow-body1">
+			<use xlink:href="sprite.svg#arrow">
+			</use>
+		</svg>
+		<svg class="arrow-body2">
+			<use xlink:href="sprite.svg#arrow">
+			</use>
+		</svg>
+		<svg class="arrow-body3">
+			<use xlink:href="sprite.svg#arrow">
+			</use>
+		</svg>
+	</div>
+	<div class="block-body-har">
+		<span class="har">Характеристики</span>
+		<span class="test-tov">Тестового товара для верстки</span>
+		<div class="spisok1">
+			<ul class="spisok-items1">
+				<li>Тип</li> 
+				<li>Номер</li>
+				<li>Бренд</li>
+			</ul>
+		</div>
+		<div class="spisok2">
+			<ul class="spisok-items2">
+				<li>Группа 1</li> 
+				<li>B410-210</li>
+				<li>Wezom</li>
+			</ul>
+		</div>
+		<a><span class="vse-har">Все Характеристики</span>
+			<svg class="arrow-body-har">
+				<use xlink:href="sprite.svg#arrow">
+				</use>
+			</svg></a>
+	</div>
+	<div class="block-body-com">
+		<span class="com1">Отзывы покупателей</span>
+		<span class="com2">12</span>
+		<a><span class="com3">Все отзывы</span>
+			<svg class="arrow-body-har">
+				<use xlink:href="sprite.svg#arrow">
+				</use>
+			</svg></a>
+		<div class="text-com1-2"><span class="text-com1">Иванова Карина</span>
+			<span class="text-com2">/ 21мая2021</span>
+			<div class="simple-rating">
+				<div class="simple-rating__items">
+				<input id="simple-rating__5"  class="simple-rating__item" name="simple-rating"  type="radio" value="5">
+				   <label for="rating-item__5" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__4" class="simple-rating__item" name="simple-rating" type="radio" value="4">
+				   <label for="simple-rating__4" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__3" class="simple-rating__item" name="simple-rating" type="radio" value="3">
+				   <label for="simple-rating__3" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__2" class="simple-rating__item" name="simple-rating"  type="radio" value="2">
+				   <label for="simple-rating__2" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__1" class="simple-rating__item" name="simple-rating"  type="radio" value="1">
+				   <label for="simple-rating__1" class="simple-rating__label"></label>
+			   </div>
+			</div>
+		</div>
+		<div class="comment1-main"><span class="comment1">Покупка этой товара была спонтанной и незапланированной. 
+			В течении часа прочитала отзывы и остановилась на этой модельке. 
+			Изначально знала, что пластины не сьемные, но плюсов было больше. Спасибо за молниеносную отправку! 
+			2 дня с момента заказа и единственный нюанс-все таки сьемные пластины удобнее, наверное. 
+			Но по советам более опытных я ставила пергамент, но мыть все равно сложновато.</span>
+		</div>
+		<div class="text-com3-4">
+			<span class="text-com3">Рогозин Тимур </span>
+			<span class="text-com4">/ 17 мая 2021</span>
+			<div class="simple-rating">
+				<div class="simple-rating__items">
+				<input id="simple-rating__5"  class="simple-rating__item" name="simple-rating"  type="radio" value="5">
+				   <label for="rating-item__5" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__4" class="simple-rating__item" name="simple-rating" type="radio" value="4">
+				   <label for="simple-rating__4" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__3" class="simple-rating__item" name="simple-rating" type="radio" value="3">
+				   <label for="simple-rating__3" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__2" class="simple-rating__item" name="simple-rating"  type="radio" value="2">
+				   <label for="simple-rating__2" class="simple-rating__label"></label>
+
+
+				<input id="simple-rating__1" class="simple-rating__item" name="simple-rating"  type="radio" value="1">
+				   <label for="simple-rating__1" class="simple-rating__label"></label>
+			   </div>
+			</div>	
+		</div>
+		<div class="comment2-main"><span class="comment2">Покупка этого товара была спонтанной и незапланированной. 
+			В течении часа прочитал отзывы и остановился на этой модельке. 
+			Спасибо за молниеносную отправку!</span>
+		</div>
+		<div id="rectangle-com1">	
+			<span class="block-com-button">
+			   Показать еще
+			   </span>
+			   </div>
+	</div>
+	<div class="callback">
+		<div class="block-callback-textblock"><span class="block-callback-text">Нужна помощь в подборе товара? Мы перезваниваем !</span></div>	
+		<input type="text" class="callback-input" placeholder="+38 (0xx) xx - xx - xxx">
+		<div id="rectangle-callback"><div class="callback-text"><span class="rectangle-callback-text">Отправить</span></div></div>
+	</div>
 </content>
+<div class="footer">
+	<div class="footer-text1"><span class="footer-text-left">
+		2021 © Wezom Test
+		</span></div>
+		<div class="footer-text2"><span class="footer-text-right">
+			Тестовое \\ Wezom
+			</span></div>
+</div>
+<script src="/assets/js/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/script.js"></script>
 </body>
 </html>
